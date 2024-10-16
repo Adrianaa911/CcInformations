@@ -1,1 +1,5 @@
 Repeating Tasks Manually
+
+1.Create the variable vacationSpots, and assign its value to an array of three strings naming places you’d like to visit.
+
+let vacationSpots = ['Brazil', 'Monaco', 'America'];
