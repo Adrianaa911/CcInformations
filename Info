@@ -11,7 +11,6 @@ As illustrated in the diagram, loops iterate or repeat an action until a specifi
 
 
 The For Loop
-6 min
 Instead of writing out the same code over and over, loops allow us to tell computers to repeat a given block of code on its own. One way to give computers these instructions is with a 
 Preview: Docs Loading link description
 for loop
