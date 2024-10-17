@@ -36,3 +36,9 @@ For example, the first round of the loop should print 'I would love to visit Bal
 
 When writing/changing loops, there is a chance that our stopping condition isn’t met and we get a dreaded infinite loop which essentially stops our programming from running anything else!
 To exit out of an infinite loop in an exercise, refresh the page - then fix the code for your loop.
+
+const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+for (let i = 0; i < vacationSpots.length; i++) {
+  console.log(`I would love to visit ${vacationSpots[i]}`);
+}
+
