@@ -75,3 +75,7 @@ We’ll practice by changing the for we wrote previously to now go in reverse. W
 we get a dreaded infinite loop which essentially stops our programming from running anything else! 
 To exit out of an infinite loop in an exercise, refresh the page - then fix the code for your loop.
 
+Task :
+Make a for loop that loops backwards printing 3 to 0 to the console.
+Use the >= comparison operator in your stopping condition and the -- operator in your iteration statement.
+
