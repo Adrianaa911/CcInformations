@@ -31,3 +31,4 @@ You’ll need two arrays of “friends” from two mock users so that you can ex
 Make a variable called bobsFollowers and set it equal to an array with four strings representing the names of Bob’s friends.
 2.Make a variable called tinasFollowers and set it equal to an array with three strings representing the names of Tina’s friends. 
 Make exactly two of these the same as two of the friends in the bobsFollowers array.
+3.Create a third variable named mutualFollowers and set it to an empty array.
