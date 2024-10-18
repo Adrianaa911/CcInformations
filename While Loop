@@ -33,3 +33,6 @@ In situations when we want a loop to execute an undetermined number of times, wh
 
 Tasks:
 1. Below the cards array, declare a variable, currentCard, with the let keyword but don’t assign it a value.
+
+const cards = ['diamond', 'spade', 'heart', 'club'];
+
