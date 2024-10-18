@@ -30,3 +30,6 @@ Remember, this is called an infinite loop and it’s something we always want to
 So you may be wondering when to use a while loop! The syntax of a while loop is ideal when we don’t know in advance how many times the loop should run.
 Think of eating like a while loop: when you start taking bites, you don’t know the exact number you’ll need to become full. Rather you’ll eat while you’re hungry. 
 In situations when we want a loop to execute an undetermined number of times, while loops are the best choice.
+
+Tasks:
+1. Below the cards array, declare a variable, currentCard, with the let keyword but don’t assign it a value.
