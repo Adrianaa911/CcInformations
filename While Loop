@@ -53,4 +53,8 @@ while (currentCard != 'spade') {
 };
 
 
+3. Awesome! Your loop is running, but you can’t tell because it doesn’t output anything. Let’s add a console.log() statement to our while block. 
+Inside the block, after you assign currentCard a new value, log currentCard to the console.
+For fun you can run your code a few times and see how the output changes!
+
 
