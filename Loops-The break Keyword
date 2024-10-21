@@ -43,6 +43,10 @@ for (let i = 0; i < rapperArray.length; i++){
   }
 }
 
-console.log("And if you don't know, now you know.");
 
+2.
+After the for loop, log the string "And if you don't know, now you know." to the console. Note: since there’s a single quote character, ', 
+in our string, we can use double quotes around the string to make sure character prints.
+
+console.log("And if you don't know, now you know.");
 
