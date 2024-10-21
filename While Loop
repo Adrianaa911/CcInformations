@@ -57,4 +57,12 @@ while (currentCard != 'spade') {
 Inside the block, after you assign currentCard a new value, log currentCard to the console.
 For fun you can run your code a few times and see how the output changes!
 
+let currentCard = '';
+while (currentCard != 'spade') {
+  currentCard = cards[Math.floor(Math.random() * 4)];
+  currentCard = 1;
+  console.log(currentCard);
+  currentCard++;
+ 
+};
 
