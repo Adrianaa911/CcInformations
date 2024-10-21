@@ -35,4 +35,12 @@ while (true === false){
   console.log(secondMessage)
 };
 
-Note: To exit out of an infinite loop in an exercise, refresh the page - then fix the code for your loop(s).
+
+Tasks:
+1. We’d like a program to simulate part of the cake-baking process. Depending on the recipe, a different number of cups of sugar is required. 
+Create the variable cupsOfSugarNeeded, and assign it a number value of your choosing.
+The cups of sugar must be added to the batter one at a time. Declare the variable cupsAdded and assign it the value 0.
+
+let cupsOfSugarNeeded = 2;
+let cupsAdded = 0;
+
