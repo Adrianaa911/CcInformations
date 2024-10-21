@@ -29,3 +29,9 @@ break
 Preview: Docs Loading link description
 statements
  can be especially helpful when we’re looping through large data structures! With breaks, we can add test conditions besides the stopping condition, and exit the loop when they’re met.
+
+
+Tasks:
+const rapperArray = ["Lil' Kim", "Jay-Z", "Notorious B.I.G.", "Tupac"];
+
+1.Log each element from rapperArray in a for loop with the iterator variable i.
