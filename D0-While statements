@@ -48,3 +48,11 @@ let cupsAdded = 0;
 Create a do...while loop which increments cupsAdded by one while cupsAdded is less than cupsOfSugarNeeded.
 In order to help us visualize the output on each iteration of the loop, add a console.log within the do...while block and log the value of cupsAdded.
 
+let cupsOfSugarNeeded = 2;
+let cupsAdded = 0;
+
+do {
+cupsAdded ++
+console.log(cupsAdded + 'cups was added.')
+ 
+} while (cupsAdded < cupsOfSugarNeeded);
