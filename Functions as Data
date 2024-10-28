@@ -35,3 +35,6 @@ methods
 Since functions are a type of object, they have properties such as .length and .name, and methods such as .toString(). You can see more about the methods and properties of functions in the documentation.
 
 Functions are special because we can invoke them, but we can still treat them like any other type of data. Let’s get some practice doing that!
+
+
+Tasks: 
