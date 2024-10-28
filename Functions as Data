@@ -16,7 +16,7 @@ const announceThatIAmDoingImportantWork = () => {
 Let’s pretend this function does important work and needs to be called repeatedly. To rename this function without sacrificing the source code, we can re-assign the function to a variable with a suitably short name:
 
 const busy = announceThatIAmDoingImportantWork;
-busy(); // This function call barely takes any space!
+busy();                   // This function call barely takes any space!
 
 
 
