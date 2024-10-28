@@ -52,3 +52,18 @@ Checkpoint 3 Passed
 Hmmm, if we forgot the original name of our function. Is there a way we could figure it out?
 
 Use isTwoPlusTwo to console.log() the name property of the function we assigned to isTwoPlusTwo.
+
+
+const checkThatTwoPlusTwoEqualsFourAMillionTimes = () => {
+  for(let i = 1; i <= 1000000; i++) {
+    if ( (2 + 2) != 4) {
+      console.log('Something has gone very wrong :( ');
+    }
+  }
+};
+
+const isTwoPlusTwo = checkThatTwoPlusTwoEqualsFourAMillionTimes;
+
+isTwoPlusTwo();
+
+console.log(isTwoPlusTwo.name);
