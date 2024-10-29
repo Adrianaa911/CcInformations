@@ -1,6 +1,5 @@
                                              Nested Loops
 
-18 min
 When we have a loop running inside another loop, we call that a nested loop. One use for a nested for loop is to compare the elements in two 
 Preview: Docs Loading link description
 arrays
