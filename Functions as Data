@@ -19,7 +19,6 @@ const busy = announceThatIAmDoingImportantWork;
 busy();                   // This function call barely takes any space!
 
 
-
 busy is a variable that holds a reference to our original function. If we could look up the address in memory of busy and the address in memory of announceThatIAmDoingImportantWork they would point to the same place. Our new busy() function can be invoked with parentheses as if that was the name we originally gave our function.
 
 Notice how we assign announceThatIAmDoingImportantWork without parentheses as the value to the busy variable. We want to assign the value of the function itself, not the value it returns when invoked.
