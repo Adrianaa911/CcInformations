@@ -54,7 +54,6 @@ Checkpoint 3 Passed
 Finally, using console.log(), log the invocation of checkConsistentOutput() with two arguments: the addTwo() function and any number.
 
 
-
 const addTwo = num => {
   return num + 2;
 }
