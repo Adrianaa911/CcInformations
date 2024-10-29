@@ -17,6 +17,7 @@ while (counterTwo < 4) {
   counterTwo++;
 }
 
+
 Let’s break down what’s happening with our while loop syntax:
 
 The counterTwo variable is declared before the loop. We can access it inside our while loop since it’s in the global scope.
