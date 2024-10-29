@@ -16,6 +16,7 @@ In the code above, we have a series of conditions checking for a value that matc
 
 A switch statement provides an alternative syntax that is easier to read and write. A switch statement looks like this:
 
+
 let groceryItem = 'papaya';
 
 switch (groceryItem) {
