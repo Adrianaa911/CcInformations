@@ -3,7 +3,9 @@ Control flow is the order in which statements are executed in a program. The def
 
 Control structures such as conditionals (if statements and the like) alter control flow by only executing blocks of code if certain conditions are met. These structures essentially allow a program to make decisions about which code is executed as the program runs.
 
+
   -- Logical Operator ||
+
 The logical OR operator || checks two values and returns a boolean. If one or both values are truthy, it returns true. If both values are falsy, it returns false.
 
 A	B	A || B
