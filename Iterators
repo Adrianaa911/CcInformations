@@ -106,9 +106,9 @@ console.log(numbers); // Output: [1, 2, 3, 4, 5]
 console.log(bigNumbers); // Output: [10, 20, 30, 40, 50]
 
 Notice that the elements in numbers were not altered and bigNumbers is a new array.
-
-
 fruits.forEach(fruit => console.log(`I want to eat a ${fruit}.`));
+
+
 
 const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
 
