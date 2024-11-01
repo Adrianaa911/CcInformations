@@ -172,3 +172,9 @@ Observe how words was not mutated, i.e. changed, and shortWords is a new array.
 
 Tasks: 
 1.Call the .filter() method on randomNumbers to return values that are less than 250. Save them to a new array called smallNumbers, declared with const.
+
+const randomNumbers = [375, 200, 3.14, 7, 13, 852];
+// Call .filter() on randomNumbers below
+const smallNumbers = randomNumbers.filter(numbers => {
+  return numbers < 250;
+});
