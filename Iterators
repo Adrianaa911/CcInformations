@@ -113,8 +113,6 @@ const secretMessage = animals.map(animals => animals[0]);
 
 console.log(secretMessage.join(''));
 
-
-
 // Create the smallNumbers array below
 
 2. Use .map() to divide all the numbers in bigNumbers by 100. Save the returned values to a variable declared with const called smallNumbers.
