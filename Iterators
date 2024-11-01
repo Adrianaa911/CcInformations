@@ -217,3 +217,5 @@ const foundAnimal = animals.findIndex(animal => {
   return animal === 'elephant';
 });
 
+2.Let’s see if we can find the index of the first animal that starts with the letter 's'.
+Call .findIndex() on the animals array and return the index of the first element that starts with 's'. Assign the returned value to a const variable named startsWithS.
