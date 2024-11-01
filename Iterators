@@ -11,7 +11,6 @@ iterators
 
 In this lesson, you will learn the syntax for these methods, their return values, how to use the documentation to understand them, and how to choose the right iterator method for a given task.
 
-
 const artists = ['Picasso', 'Kahlo', 'Matisse', 'Utamaro'];
 
 artists.forEach(artist => {
@@ -35,13 +34,8 @@ const onlyNumbers = things.filter(thing => {
 console.log(onlyNumbers);
 
 
-*The .forEach() Method
-
-10 min
-The first iteration method that we’re going to learn is 
-Preview: Docs Loading link description
-.forEach()
-. Aptly named, .forEach() will execute the same code for each element of an array.
+!! *The .forEach() Method * !!
+The first iteration method that we’re going to learn is .forEach() . Aptly named, .forEach() will execute the same code for each element of an array.
 Diagram outlining the parts of an array iterator including the array identifier, the section that is the iterator, and the callback function
 
 The code above will log a nicely formatted list of the groceries to the console. Let’s explore the syntax of invoking .forEach().
