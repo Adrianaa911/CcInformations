@@ -169,3 +169,6 @@ console.log(words); // Output: ['chair', 'music', 'pillow', 'brick', 'pen', 'doo
 console.log(shortWords); // Output: ['chair', 'music', 'brick', 'pen', 'door']
 
 Observe how words was not mutated, i.e. changed, and shortWords is a new array.
+
+Tasks: 
+1.Call the .filter() method on randomNumbers to return values that are less than 250. Save them to a new array called smallNumbers, declared with const.
