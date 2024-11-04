@@ -324,3 +324,7 @@ const newSum = newNumbers.reduce((accumulator, currentValue) => {
 
 console.log(newSum);
 
+There are many additional built-in array 
+Preview: Docs Methods are object properties that contain functions.
+methods, a complete list of which is on the  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Iteration_methods
+
