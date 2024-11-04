@@ -279,3 +279,5 @@ const newSum = newNumbers.reduce();
 
 console.log(newSum);
 
+2. Provide .reduce with an argument of a callback function. The callback function has two parameters.
+The first parameter is accumulator and the second parameter is currentValue. Use either a function expression or an arrow function.
