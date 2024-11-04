@@ -310,3 +310,7 @@ const newSum = newNumbers.reduce((accumulator, currentValue) => {
 });
 
 console.log(newSum);
+
+5. While we have this code set up, let’s also check what happens if you add a second argument to .reduce().
+The second argument acts as an initial value for the accumulator.
+Add a second argument of 10 to .reduce().
