@@ -222,3 +222,4 @@ Assign the returned value to a const variable named startsWithS.
 const startWithS = animals.findIndex(animal => {
   return animal[0] === 's' ? true : false;
 });
+
