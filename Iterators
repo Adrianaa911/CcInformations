@@ -223,3 +223,7 @@ const startWithS = animals.findIndex(animal => {
   return animal[0] === 's' ? true : false;
 });
 
+
+* !! The .reduce() Method !!
+
+
