@@ -4,9 +4,7 @@ Imagine you had a grocery list and you wanted to know what each item on the list
 This common task is similar to what we have to do when we want to iterate over, or loop through, an array.
 One tool at our disposal is the for loop. However, we also have access to built-in array methods which make looping easier.
 
-The built-in JavaScript array methods that help us iterate are called iteration methods, at times referred to as 
-Preview: Docs Loading link description
-iterators
+The built-in JavaScript array methods that help us iterate are called iteration methods, at times referred to as iterators
 . Iterators are methods called on arrays to manipulate elements and return values.
 
 In this lesson, you will learn the syntax for these methods, their return values, how to use the documentation to understand them, and how to choose the right iterator method for a given task.
@@ -125,12 +123,8 @@ console.log(smallNumbers);
 
 **The .filter() Method
 
-Another useful iterator method is 
-Preview: Docs Loading link description
-.filter()
-. Like 
-Preview: Docs Loading link description
-.map(), .filter() returns a new array. However, .filter() returns an array of elements after filtering out certain elements from the original array.
+Another useful iterator method is .filter()
+Like .map(), .filter() returns a new array. However, .filter() returns an array of elements after filtering out certain elements from the original array.
 The callback function for the .filter() method should return true or false depending on the element that is passed to it. 
 The elements that cause the callback function to return true are added to the new array. Take a look at the following example:
 
@@ -173,10 +167,8 @@ const longFavoriteWords = favoriteWords.filter(words => {
 
 !! * The .findIndex() Method * !!
 
-We sometimes want to find the location of an element in an array. That’s where the .findIndex() method comes in! Calling 
-Preview: Docs Loading link description
-.findIndex()
- on an array will return the index of the first element that evaluates to true in the callback function.
+We sometimes want to find the location of an element in an array. That’s where the .findIndex() method comes in!
+Calling .findIndex() on an array will return the index of the first element that evaluates to true in the callback function.
 
 const jumbledNums = [123, 25, 78, 5, 9]; 
 
@@ -225,10 +217,8 @@ const startWithS = animals.findIndex(animal => {
 
 
 * !! The .reduce() Method !!
-Another widely used iteration method is .reduce(). The 
-Preview: Docs Loading link description
-.reduce()
- method returns a single value after iterating through the elements of an array, thereby reducing the array. Take a look at the example below:
+Another widely used iteration method is .reduce(). 
+.reduce() method returns a single value after iterating through the elements of an array, thereby reducing the array. Take a look at the example below:
 
 const numbers = [1, 2, 4, 10];
 
@@ -250,7 +240,8 @@ Now let’s go over the use of .reduce() from the example above:
 numbers is an array that contains numbers.
 summedNums is a variable that stores the returned value of invoking .reduce() on numbers.
 numbers.reduce() calls the .reduce() method on the numbers array and takes in a callback function as argument.
-The callback function has two parameters, accumulator and currentValue. The value of accumulator starts off as the value of the first element in the array and the currentValue starts as the second element. To see the value of accumulator and currentValue change, review the chart above.
+The callback function has two parameters, accumulator and currentValue. The value of accumulator starts off as the value of the first element in the array and the currentValue starts as the second element. 
+To see the value of accumulator and currentValue change, review the chart above.
 As .reduce() iterates through the array, the return value of the callback function becomes the accumulator value for the next iteration, currentValue takes on the value of the current element in the looping process.
 The .reduce() method can also take an optional second parameter to set an initial value for accumulator (remember, the first argument is the callback function!). For instance:
 
