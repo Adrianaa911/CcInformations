@@ -29,7 +29,10 @@ storyWords = storyWords.map((word) => {
   return word === misspelledWord ? 'beautiful' : word;
 });
 
-
+const badWordIndex = storyWords.findIndex((word) => {
+  return word === badWord;
+});
+console.log(badWordIndex);
 
 
 
