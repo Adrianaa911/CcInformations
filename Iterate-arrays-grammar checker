@@ -25,6 +25,11 @@ storyWords = storyWords.filter((word) => {
   return word !== unnecessaryWord;
 });
 
+storyWords = storyWords.map((word) => {
+  return word === misspelledWord ? 'beautiful' : word;
+});
+
+
 
 
 
