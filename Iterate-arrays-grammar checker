@@ -16,10 +16,10 @@ let badWord = 'freaking';
 
 //console.log(storyWords);
 let count = 0; 
-storyEach.forEach(() => {
-
+storyWords.forEach((word) => {
+  count++;
 });
-
+console.log(count);
 
 
 
