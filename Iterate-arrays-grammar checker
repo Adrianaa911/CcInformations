@@ -41,6 +41,10 @@ let lengthCheck = storyWords.every((word) => {
 });
 console.log(lengthCheck);
 
+storyWords.forEach((word) => {
+  word.length > 10 && console.log(word);
+})
+
 
 
 console.log(storyWords.join(' '));
