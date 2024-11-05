@@ -189,7 +189,6 @@ If we check what element has index of 3:
 console.log(jumbledNums[3]); // Output: 5
 
 Great, the element in index 3 is the number 5. This makes sense since 5 is the first element that is less than 10.
-
 If there isn’t a single element in the array that satisfies the condition in the callback, then .findIndex() will return -1.
 
 const greaterThan1000 = jumbledNums.findIndex(num => {
