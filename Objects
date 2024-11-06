@@ -49,5 +49,7 @@ let spaceship = {
 };
 
 1.Let’s use the dot operator to access the value of numCrew from the spaceship object in the code editor. 
+
+let crewCount = spaceship.numCrew;
 Create a variable crewCount and assign the spaceship‘s numCrew property to it.
 
