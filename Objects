@@ -34,5 +34,9 @@ let spaceship = {
 spaceship.homePlanet; // Returns 'Earth',
 spaceship.color; // Returns 'silver',
 
+
 If we try to access a property that does not exist on that object, undefined will be returned.
 spaceship.favoriteIcecream; // Returns undefined
+
+Tasks:
+1.
