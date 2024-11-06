@@ -48,6 +48,6 @@ let spaceship = {
   flightPath: ['Venus', 'Mars', 'Saturn']
 };
 
-1.
-
+1.Let’s use the dot operator to access the value of numCrew from the spaceship object in the code editor. 
+Create a variable crewCount and assign the spaceship‘s numCrew property to it.
 
