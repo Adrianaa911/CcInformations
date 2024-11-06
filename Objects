@@ -39,4 +39,15 @@ If we try to access a property that does not exist on that object, undefined wil
 spaceship.favoriteIcecream; // Returns undefined
 
 Tasks:
+
+let spaceship = {
+  homePlanet: 'Earth',
+  color: 'silver',
+  'Fuel Type': 'Turbo Fuel',
+  numCrew: 5,
+  flightPath: ['Venus', 'Mars', 'Saturn']
+};
+
 1.
+
+
