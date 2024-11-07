@@ -134,5 +134,5 @@ delete spaceship.mission;  // Removes the mission property
 let isActive = spaceship['Active Mission'];
 
 Tasks:
-1.
+1.Reassign the color property of the spaceship object to have a value of 'glorious gold'
 
