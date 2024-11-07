@@ -133,3 +133,6 @@ delete spaceship.mission;  // Removes the mission property
 
 let isActive = spaceship['Active Mission'];
 
+Tasks:
+1.
+
