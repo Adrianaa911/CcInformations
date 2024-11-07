@@ -144,3 +144,4 @@ let spaceship = {
 
 1.Reassign the color property of the spaceship object to have a value of 'glorious gold'
 
+spaceship.color = 'glorious gold';
