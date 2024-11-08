@@ -148,6 +148,10 @@ spaceship.color = 'glorious gold';
 2.Without changing lines 1 - 6, add a numEngines property with a numeric value between 1 and 10 to the spaceship object.
 spaceship.numEngines = 7;
 
+3. Use the delete operator to remove the 'Secret Mission' property from the spaceship object.
+delete spaceship['Secret Mission'];
+
+
 !! -- Methods -- !!
 When the data stored on an object is a function we call that a method
 . A property is what an object has, while a method is what an object does.
@@ -175,5 +179,3 @@ Object methods are invoked by appending the object’s name with the dot operato
 alienShip.invade(); // Prints 'Hello! We have come to dominate your planet. Instead of Earth, it shall be called New Xaculon.'
 
 
-3. Use the delete operator to remove the 'Secret Mission' property from the spaceship object.
-delete spaceship['Secret Mission'];
