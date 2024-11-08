@@ -184,3 +184,9 @@ let retreatMessage = 'We no longer wish to conquer your planet. It is full of do
 
 1. Below the retreatMessage variable in the code editor, create an alienShip object. It should contain a method retreat() which will console.log() the retreatMessage.
 
+let alienShip = {
+  retreat() {
+    console.log(retreatMessage)
+  }
+}
+
