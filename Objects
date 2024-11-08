@@ -190,3 +190,17 @@ let alienShip = {
   }
 }
 
+2.Add another method to your object literal. This method, takeOff(), should console.log() the string 'Spim... Borp... Glix... Blastoff!'.
+3.Invoke your two methods: first .retreat() then .takeOff().
+
+let alienShip = {
+  retreat() {
+    console.log(retreatMessage)
+  },
+  takeOff() {
+  console.log('Spim... Borp... Glix... Blastoff!')
+}
+};
+
+alienShip.retreat();
+alienShip.takeOff();
