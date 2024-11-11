@@ -7,3 +7,17 @@ In this lesson we will cover these topics:
 3.defining getters and setters in objects.
 4.creating factory functions
 5.using destructuring techniques.
+
+! --The this Keyword --!
+Objects are collections of related data and functionality. We store that functionality in methods on our objects:
+
+const goat = {
+  dietType: 'herbivore',
+  makeSound() {
+    console.log('baaa');
+  }
+};
+
+In our goat object we have a .makeSound() method. We can invoke the .makeSound() method on goat.
+
+goat.makeSound(); // Prints baaa
