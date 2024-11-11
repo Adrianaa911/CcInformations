@@ -1,1 +1,9 @@
+!-- Advanced Objects Introduction --!
 
+Remember, objects in JavaScript are containers that store data and functionality. In this lesson, we will build upon the fundamentals of creating objects and explore some advanced concepts.
+In this lesson we will cover these topics:
+1.how to use the this keyword.
+2.conveying privacy in JavaScript methods
+3.defining getters and setters in objects.
+4.creating factory functions
+5.using destructuring techniques.
