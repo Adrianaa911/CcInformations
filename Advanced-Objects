@@ -59,7 +59,7 @@ In the example above, the calling object is goat and by using this we’re acces
 const goat = {
   dietType: 'herbivore',
   makeSound() {
-    console.log('baaa');
+    console.log('baaa');wo
   },
   diet: () => {
     console.log(this.dietType);
@@ -72,3 +72,14 @@ In the comment, you can see that goat.diet() would log undefined. So what happen
 
 Arrow functions inherently bind, or tie, an already defined this value to the function itself that is NOT the calling object.
 In the code snippet above, the value of this is the global object, or an object that exists in the global scope, which doesn’t have a dietType property and therefore returns undefined.
+
+--correct version using a function expression withouth using arrow function syntax.
+const robot = {
+  energyLevel: 100,
+  checkEnergy() {
+    console.log(`Energy is currently at ${this.energyLevel}%.`)
+  }
+}
+
+robot.checkEnergy();
+
