@@ -1,9 +1,6 @@
 !! -- Functions as Parameters --!!
 
-As you know, a parameter is a placeholder for the data that gets passed into a function. Since 
-Preview: Docs Loading link description
-functions
- can behave like any other type of data in JavaScript, it might not surprise you to learn that functions can accept other functions as parameters.
+As you know, a parameter is a placeholder for the data that gets passed into a function. Since functions can behave like any other type of data in JavaScript, it might not surprise you to learn that functions can accept other functions as parameters.
 A higher-order function is a function that either accepts functions as parameters, returns a function, or both! We call functions that get passed in as parameters callback functions. 
 Callback functions get invoked during the execution of the higher-order function.
 
