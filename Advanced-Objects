@@ -252,7 +252,8 @@ const monsterFactory = (name, age, energySource, catchPhrase) => {
 };
 
 
-In the monsterFactory function above, it has four parameters and returns an object that has the properties: name, age, energySource, and scare(). To make an object that represents a specific monster like a ghost, we can call monsterFactory with the necessary arguments and assign the return value to a variable:
+In the monsterFactory function above, it has four parameters and returns an object that has the properties: name, age, energySource, and scare(). 
+To make an object that represents a specific monster like a ghost, we can call monsterFactory with the necessary arguments and assign the return value to a variable:
 
 const ghost = monsterFactory('Ghouly', 251, 'ectoplasm', 'BOO!');
 ghost.scare(); // 'BOO!'
