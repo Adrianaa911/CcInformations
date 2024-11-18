@@ -32,7 +32,6 @@ while (true === false){
   console.log(secondMessage)
 };
 
-
 Tasks:
 1. We’d like a program to simulate part of the cake-baking process. Depending on the recipe, a different number of cups of sugar is required. 
 Create the variable cupsOfSugarNeeded, and assign it a number value of your choosing.
