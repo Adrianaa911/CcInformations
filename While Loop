@@ -35,8 +35,7 @@ Tasks:
 const cards = ['diamond', 'spade', 'heart', 'club'];
 let currentCard = '';
 
-2. 
-Create a while loop with a condition that checks if the currentCard does not have that value 'spade'.
+2. Create a while loop with a condition that checks if the currentCard does not have that value 'spade'.
 
 Inside the block of your while loop, add the following line of code:
 
