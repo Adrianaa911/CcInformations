@@ -1,9 +1,6 @@
    !! -- The While Loop -- !!
 
-We’re going to teach you about a different type of loop: the 
-Preview: Docs Loading link description
-while loop
-. To start, let’s convert a for loop into a while loop:
+We’re going to teach you about a different type of loop: the while loop. To start, let’s convert a for loop into a while loop:
 
 // A for loop that prints 1, 2, and 3
 for (let counterOne = 1; counterOne < 4; counterOne++){
