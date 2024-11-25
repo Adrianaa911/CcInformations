@@ -45,6 +45,7 @@ in our string, we can use double quotes around the string to make sure character
 
 console.log("And if you don't know, now you know.");
 
+
 3. Add a break inside your loop’s block that breaks out of the loop if the element at the current index in the rapperArray is 'Notorious B.I.G.'.
 Log the element before breaking out of the loop.
 
