@@ -8,6 +8,7 @@ In this lesson we will cover these topics:
 4.creating factory functions
 5.using destructuring techniques.
 
+
 ! --The this Keyword --!
 Objects are collections of related data and functionality. We store that functionality in methods on our objects:
 
